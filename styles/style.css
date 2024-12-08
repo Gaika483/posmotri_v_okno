@@ -146,7 +146,6 @@ ol {
 
 input[type='checkbox']:checked + span::before {
   content: '';
-  position: absolute;
   width: 16px;
   height: 16px;
   background-color: white;
