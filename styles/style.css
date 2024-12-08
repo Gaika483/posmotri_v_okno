@@ -91,7 +91,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: left;
 }
 
 .search-form__label {
@@ -110,17 +109,16 @@ ol {
 
 .search-form__textfield {
   display: block;
-  width: 200px;
+  width: 225px;
   border: 1px solid white;
   border-right: none;
   border-left: none;
   color: white;
-  text-align: start;
   background-color: transparent;
+  font-size: 16px;
 }
 
 .search-form__textfield:focus {
-  border: none;
   outline: none;
 }
 
@@ -183,7 +181,7 @@ input[type='checkbox']:checked + span::before {
 
 .search-form__submit-button {
   width: 194px;
-  margin-top: 14px;
+  margin-top: 16px;
 }
 
 .content__details {
