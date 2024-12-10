@@ -102,7 +102,7 @@ ol {
   appearance: none;
 }
 
-.search-form__label:hover.search-form__label {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -254,6 +254,7 @@ input[type="checkbox"]:checked + span::before {
 
 .content__video-card-description-container {
   width: 100%;
+  overflow: hidden;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
